@@ -1,0 +1,20 @@
+Course 1: CSE
+ 030
+ Data Structures
+Number of credits: 4
+Days of Lectures: Monday, Wednesday
+Stat: on average, students get 85
+ in this course 
+Course 2: CSE
+ 165
+ Introduction to Object Oriented Programming 
+Number of credits: 4
+Days of Lectures: Tuesday, Thursday 
+Stat: on average, students get 87
+ in this course 
+Course 3: BIO
+ 101
+ Introduction to Biology
+Number of credits: 3 
+Days of Lectures: Tuesday, Thursday 
+Stat: on average, students get 91 in this course 

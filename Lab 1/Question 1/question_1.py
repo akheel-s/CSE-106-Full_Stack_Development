@@ -5,4 +5,4 @@ else:
     totalsum = 0
     for x in range(0, len(inputs)):
         totalsum += inputs[x]
-    print("The sum is : " + totalsum)
+    print("The sum is : %d" %totalsum)
