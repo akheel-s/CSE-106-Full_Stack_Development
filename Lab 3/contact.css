@@ -1,0 +1,54 @@
+body {
+    background-color: #3d5e80;
+    font-family: Trebuchet MS;
+    color: #d3ebeb;
+    margin: auto;
+    text-align: center;
+  }
+  
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav img {
+    float: left;
+    padding-right: 5;
+    padding-left: 5;
+    padding-top: 5;
+    padding-bottom: 5;
+    width: 40;
+    height: 40;
+  }
+  
+.topnav a:hover {
+    background-color: #cedbdb;
+    color: black;
+  }
+  
+.topnav a.active {
+    background-color: #cedbdb;
+    color: black;
+  }
+
+img {
+      width: 250;
+      height: 250;
+  }
+
+.list {
+    display: table;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+}
+  

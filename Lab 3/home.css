@@ -1,0 +1,55 @@
+body {
+  background-color: #3d5e80;
+  color: #d3ebeb;
+  font-family: Trebuchet MS;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.topnav {
+  background-color: grey;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #cedbdb;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav img {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 5;
+  padding-left: 5;
+  padding-top: 5;
+  padding-bottom: 5;
+  width: 40;
+  height: 40;
+}
+
+.topnav a:hover {
+  background-color: #cedbdb;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #cedbdb;
+  color: black;
+}
+
+h1 {
+  color: #d3ebeb;;
+}
+
+.content {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: large;
+}
