@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title> Grades Program </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="page.css">
+  </head>
+  <body>
+    <div id="allstudents"> </div>
+    <div>
+      <input class="button" value = "Load All Students" type="button" onclick = loadAll()></input>
+    </div>
+    <div>
+      <h1>Enter name of student who's grade you want to see.</h1>
+      <label for="name">Student Name: </label>
+      <input class="text" id= "searchname" type="text"></input>
+      <input class="button" value = "Submit" type="button" onclick = search(searchname)></input>
+      <div id="personinfo"> </div>
+    </div>
+
+    <div> 
+      <h1> Enter name and grade of student you want to add.</h1>
+      <label for="name">Name: </label>
+    <input class="text" id= "addname" type="text"></input>
+    <label for="grade">Grade: </label>
+    <input class="text" id= "addgrade" type="text"></input>
+    <input class="button" value = "Submit" type="button" onclick = adding()></input>
+    <div id="added"></div>
+    </div>
+
+    <div> 
+      <h1> Enter name and grade of student who's grade you want to edit.</h1>
+      <label for="name">Name: </label>
+    <input class="text" id= "editname" type="text"></input>
+    <label for="grade">Grade: </label>
+    <input class="text" id= "editgrade" type="text"></input>
+    <input class="button" value = "Submit" type="button" onclick = editing()></input>
+    <div id="edited"></div>
+
+    <div>
+      <h1>Enter name of student who's grade you want to delete.</h1>
+      <label for="name">Student Name: </label>
+      <input class="text" id= "deletename" type="text"></input>
+      <input class="button" value = "Submit" type="button" onclick = deletestudent(deletename)></input>
+      <div id="deleted"></div>
+    </div>
+
+
+  </body>
+  <script src="script.js"></script>
+</html>

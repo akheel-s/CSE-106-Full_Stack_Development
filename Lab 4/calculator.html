@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <table class="calculator">
+        <tr>
+            <td colspan="3"><input class="display" type="text" id="screen" disabled/></td>
+            <td><input class="clearbutton" type="button" value="C" onclick="reset()"> </input> </td>
+        </tr>
+        <tr>
+            <td><input class="button" type="button" value="1" onclick="inputs('1')"> </input></td>
+            <td><input class="button" type="button" value="2" onclick="inputs('2')"> </input></td>
+            <td><input class="button" type="button" value="3" onclick="inputs('3')"> </input></td>
+            <td><input class="arithmeticbutton" type="button" value="/" onclick="inputs('/')"></input></td>
+        </tr>
+        <tr>
+            <td><input class="button" type="button" value="4" onclick="inputs('4')"> </input></td>
+            <td><input class="button" type="button" value="5" onclick="inputs('5')"> </input></td>
+            <td><input class="button" type="button" value="6" onclick="inputs('6')"> </input></td>
+            <td><input class="arithmeticbutton" type="button" value="-" onclick="inputs('-')"></input></td>
+        </tr>
+        <tr>
+            <td><input class="button" type="button" value="7" onclick="inputs('7')"> </input></td>
+            <td><input class="button" type="button" value="8" onclick="inputs('8')"> </input></td>
+            <td><input class="button" type="button" value="9" onclick="inputs('9')"> </input></td>
+            <td><input class="arithmeticbutton" type="button" value="+" onclick="inputs('+')"> </input> </td>
+        </tr>
+        <tr>
+            <td><input class="button" type="button" value="0" onclick="inputs('0')"> </input></td>
+            <td><input class="button" type="button" value="." onclick="inputs('.')"> </input></td>
+            <td><input class="totalbutton" type="button" value="=" onclick="calculate()"> </input></td>
+            <td><input class="arithmeticbutton" type="button" value="*" onclick="inputs('*')"> </input></td>
+        </tr>
+    </table>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
